@@ -4,4 +4,4 @@ let h3 = document.getElementById("letterCount");
 function countChar() {
 	h3.innerText = input.value.length;
 }
-input.addEventListenner("keyup", countChar);
+input.addEventListener("keyup", countChar);
